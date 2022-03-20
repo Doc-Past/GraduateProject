@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,400;0,700;1,200;1,700&display=swap'); 
+/*-- Prompt Font : font-family: 'Prompt', sans-serif; --*/
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap'); 
+/*-- Licorice Font : font-family: 'Licorice', cursive; --*/
+
+/* Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Prompt', sans-serif;
+    font-size: 12px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}

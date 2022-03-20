@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สื่อการสอน | CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="../../defaultStyle.css">
+    <link rel="stylesheet" type="text/css" href="../../globalCssVariables.css">
+    <link rel="stylesheet" type="text/css" href="../../navigationBar.css">
+    <link rel="stylesheet" type="text/css" href="../../footer.css">
+
+    <link rel="stylesheet" type="text/css" href="htmlPageStyleSheet/htmlPageStyleSheet.css">
+</head>
+<body>
+
+    <nav>
+        <div>
+            <p class="saving-style">โครงการสื่อการสอนเขียนโปรแกรมขั้นพื้นฐาน</p>
+        </div>
+        <div>
+            <a class="nav-link" href="../../index.html" target="_blank"><i class="fas fa-home"></i>หน้าแรก</a>
+            <a class="nav-link" href="../htmlPage/htmlPage.html" target="_blank">HTML</a>
+            <a class="nav-link" href="#" target="_blank">CSS</a>
+            <a class="nav-link" href="../cPage/cPage.html" target="_blank">C</a>
+            <a class="nav-link" href="../pythonPage/pythonPage.html" target="_blank">Python</a>
+            <a class="nav-link" href="../creatorPage/creatorPage.html" target="_blank">ผู้จัดทำ</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>สื่อการสอนหัวข้อ CSS</h1>
+    </header>
+
+    <div class="center-link">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFqp-QZqY6o99Vb2gKE9h7x5L0mIbUMXRGnzTHwAlzBEJT4Q/viewform" target="_blank">แบบทดสอบก่อนเรียน</a>
+    </div>
+
+    <div class="card-container">
+        <!--
+        <div class="card">
+            <div class="image-container">
+                <img src="htmlPageImages/minecraftBook.png">
+            </div>
+            <h2>Minecraft Books</h2>
+            <p>หนังสือเล่มนี้ ใช้สำหรับอัพเกรดใน Minecraft</p>
+        </div>
+    -->
+
+        <div class="card">
+            <div class="image-container">
+                <img src="htmlPageImages/cssLogo.png">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="text-container">
+        <p class="description-text">
+            ภาษา CSS มีชื่อเต็มว่า "Cascading Style Sheets" เป็นภาษาที่ใช้งานคู่กับภาษา HTML โดยที่ภาษา CSS จะใช้สำหรับตกแต่งหน้าเว็บไซต์ให้มีความสวยมากขึ้น
+            ภาษา CSS เป็นภาษาทีแยกออกมาจากภาษา HTML ไม่ใช่ภาษาเดียวกัน และเป็นภาษาที่เป็นกึ่งโปรแกรมมิ่งอยู่บ้าง โดยสามารถกำหนดเงื่อนไขอย่างง่าย เพิ่มตัวแปร และ
+            การคำนวณอย่างง่ายได้ จึงเป็นภาษาที่มีเป็นโปรแกรมมิ่งอยู่บ้าง แต่ไม่ได้เหมือนภาษา C และภาษา Python ที่เป็นภาษาโปรแกรมมิ่งเต็มรูปแบบ
+        </p>
+        <img class="html-code-image" src="htmlPageImages/cssCodeImage.png">
+        <h2>ส่วนอธิบาย</h2>
+        <ul class="content-section">
+            <li>display : เป็นส่วนที่กำหนดรูปแบบการแสดงผลบนหน้าเว็บไซต์ หรือบน Web Browser</li>
+            <li>background : เป็นส่วนที่กำหนดสีพื้นของ Element ต่างในหน้าเว็บไซต์(ส่วนนี้ใช้งานเพื่อทดสอบความกว้าง และการมีอยู่ของ Element เท่านั้น)</li>
+            <li>box-shadow : เป็นส่วนที่สร้างเงาให้กับ Element</li>
+            <li>justify-content : เป็นตัวที่ใช้กำหนดการจัดรูปแบบที่ใช้งานใน display ประเภท flexbox</li>
+            <li>position : เป็นส่วนที่ใช้สำหรับกำหนดรูปแบบของตำแหน่งของ Element ในหน้าเว็บไซต์</li>
+            <li>margin : เป็นส่วนที่ใช้สำหรับกำหนดความห่างกันระหว่าง Element(ส่วนนี้จะเข้าใจได้ต้องศึกษาในส่วนของ CSS Box Model)</li>
+            <li>padding : เป็นส่วนที่ใช้สำหรับการกำหนดความห่างของเนื้อหาที่อยู่ใน Element(ส่วนนี้จะเข้าใจได้ต้องศึกษาในส่วนของ CSS Box Model)</li>
+            <li>border-radius : เป็นส่วนที่ใช้สำหรับทำให้ขอบมุมต่างๆ โค้งมนมากขึ้น</li>
+            <li>text-align : เป็นส่วนที่ใช้สำหรับกำหนดให้ข้อความ รุปภาพ หรือ Element ที่เกี่ยวข้องกับ Font อยู่ในตำแหน่งที่ต้องการ เช่น ตรงกลาง</li>
+            <li>width : เป็นส่วนที่ใช้สำหรับกำหนดความกว้างให้กับ Element ใช้ได้กับทุกๆ Element ที่ต้องการปรับความกว้าง และยังนิยมใช้งานกับรูปภาพอีกด้วย</li>
+            <li>font-size : เป็นส่วนที่ใช้สำหรับกำหนดขนาดของ Font หรือตัวอักษร</li>
+            <li>-> จากส่วนที่แล้ว(HTML) ตัวเครื่องหมายที่ใช้กำหนด class คือ เครื่องหมาย "." ส่วนตัวที่ไม่ได้มีจุดอยู่ด้านหน้า หมายความว่าเลือกที่ Element โดยตรง</li>
+        </ul>
+    </div>
+
+    <div class="center-link">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFqp-QZqY6o99Vb2gKE9h7x5L0mIbUMXRGnzTHwAlzBEJT4Q/viewform" target="_blank">แบบทดสอบหลังเรียน</a>
+    </div>
+
+    <footer>
+        <h3>แหล่งข้อมูลเพิ่มเติม</h3>
+        <ul>
+            <li><a class="footer-link" href="https://developer.mozilla.org/en-US/">MDN | Mozilla Developer Network</a></li>
+            <li><a class="footer-link" href="https://www.w3schools.com/">W3School</a></li>
+            <li><a class="footer-link" href="https://css-tricks.com/">CSS Trick</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>

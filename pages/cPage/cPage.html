@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สื่อการสอน | C</title>
+
+    <link rel="stylesheet" type="text/css" href="../../defaultStyle.css">
+    <link rel="stylesheet" type="text/css" href="../../globalCssVariables.css">
+    <link rel="stylesheet" type="text/css" href="../../navigationBar.css">
+    <link rel="stylesheet" type="text/css" href="../../footer.css">
+
+    <link rel="stylesheet" type="text/css" href="htmlPageStyleSheet/htmlPageStyleSheet.css">
+</head>
+<body>
+
+    <nav>
+        <div>
+            <p class="saving-style">โครงการสื่อการสอนเขียนโปรแกรมขั้นพื้นฐาน</p>
+        </div>
+        <div>
+            <a class="nav-link" href="../../index.html" target="_blank"><i class="fas fa-home"></i>หน้าแรก</a>
+            <a class="nav-link" href="../htmlPage/htmlPage.html" target="_blank">HTML</a>
+            <a class="nav-link" href="../cssPage/cssPage.html" target="_blank">CSS</a>
+            <a class="nav-link" href="#" target="_blank">C</a>
+            <a class="nav-link" href="../pythonPage/pythonPage.html" target="_blank">Python</a>
+            <a class="nav-link" href="../creatorPage/creatorPage.html" target="_blank">ผู้จัดทำ</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>สื่อการสอนหัวข้อ C</h1>
+    </header>
+
+    <div class="center-link">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0fz53Rn0ATs7jFy_AZgEpX8w7o8Ool0YASJ7MJm-TbNq6mA/viewform" target="_blank">แบบทดสอบก่อนเรียน</a>
+    </div>
+
+    <div class="image-center-container">
+        <img class="html-code-image-second" src="htmlPageImages/c-language-image.png">
+    </div>
+
+    <div class="text-container">
+        <p class="description-text">
+            ภาษา C เป็นภาษาที่มีความเก่าแก่มากที่สุด เรียกได้ว่าเป็นภาษาแรกๆ ที่ใช้วำหรับการพัฒนาโปรแกรมให้กับเครื่องคอมพิวเตอร์ ภาษายังคงถูกใช้งาน
+            เป็นจำนวนมากในปัจจุบัน เพราะว่าเป็นภาษาที่มีขนาดเล็ก และเร็วที่สุด เนื่องจากภาษา C เป็นภาษาที่มีความใกล้เคียงกับภาษาเครื่องมากที่สุด(Machine Language)
+            ภาษายังมีขนาดเล็ก เพราะถูกพัฒนาขึ้นมาในช่วงที่เครื่องคอมพิวเตอร์ยังมีหน่วยความจำหลักเพียงแค่หลัก byte ถึง kbyte เท่านั้น ไม่ได้มีหลัก Gigabyte เหมือนในปัจจุบัน
+            ทำให้เหมาะมาก สำหรับเอาไว้เขียนโปรแกรมให้กับโปรแกรมแบบฝัง ที่ไม่จำเป็นต้องมีการอัพเดตบ่อยๆ เช่น BIOS และยังสามารถที่จะเขียนโปรแกรมให้กับ
+            อุปกรณ์ที่มีหน่วยความจำที่น้อยได้อีกด้วย
+        </p>
+        <img class="html-code-image" src="htmlPageImages/cCodeImage.png">
+        <h2>ส่วนอธิบาย</h2>
+        <ul class="content-section">
+            <li>#include &lt;studio.h&gt; คือ library ของภาษา C มีหลาย library ให้เลือกใช้งานในการพัฒนาโปรแกรม</li>
+            <li>int main() คือ การกำหนดชื่อฟังกฺชั่นเริ่มต้น โดยที่เมื่อกดรันด์โปรแกรม ฟังก์ชั่นตัวนี้จะถูกรันในทันที</li>
+            <li>float variableName คือ การกำหนดให้ตัวแปรที่ต้องการเก็บค่าเป็นเลขจำนวนจริง</li>
+            <li>printf("Text") คือ การแดสงผลข้อความใดๆ ก็ได้ใน Terminal</li>
+            <li>scanf("%f", &"variableName") คือ การรับค่าจากแป้นพิมพ์ หรือผู้ใช้งานโปรแกรม โดยที่ตัวแปรด้านหลังจะทำการเก็บค่าที่ใส่เข้ามาให้</li>
+            <li>printf("Area of a Rectangle is %.2f \n\n",Width * Long); คือ บรรทัดที่ใช้สำหรับการคำนวณค่าที่ผู้ใช้งานใส่เข้ามา และส่งออกไป</li>
+            <li>return 0 คือ การส่งค่าออกจากโปรแกรมให้กลายเป็น 0 หรืออีกนัยหนึ่ง คือ การล้างค่าที่ผู้ใช่ใส่มาตั้งแต่แรก</li>
+            <li>-> โค้ดด้านบนเป็นสูตรการหาค่าพื้นที่ของสี่เหลี่ยมผืนผ้า(กว้างxยาว)</li>
+            <li>-> ด้ายซ้าย คือ ส่วนที่ใช้ในการเขียนโค้ด ด้านขวา คือ Terminal ที่ใช้ในการแสดงผลการรันด์ของโค้ด</li>
+            <li>-> Online Code Editor ตัวนี้ชื่อ replit</li>
+        </ul>
+    </div>
+
+    <div class="center-link">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc0fz53Rn0ATs7jFy_AZgEpX8w7o8Ool0YASJ7MJm-TbNq6mA/viewform" target="_blank">แบบทดสอบหลังเรียน</a>
+    </div>
+
+    <footer>
+        <h3>แหล่งข้อมูลเพิ่มเติม</h3>
+        <ul>
+            <li><a class="footer-link" href="https://developer.mozilla.org/en-US/">MDN | Mozilla Developer Network</a></li>
+            <li><a class="footer-link" href="https://www.w3schools.com/">W3School</a></li>
+            <li><a class="footer-link" href="https://css-tricks.com/">CSS Trick</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>

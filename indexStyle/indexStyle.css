@@ -1,0 +1,295 @@
+/*-- CSS Variables --*/
+:root {
+    --card-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+    --low-shadow: 0 0 20px 0 rgba(0, 0, 0, .35);
+}
+
+/* Universal Style */
+.section-card-container {
+    display: inline-block;
+    width: 25%;
+    height: 93.25vh;
+    position: absolute;
+}
+
+/* Header */
+h1 {
+    font-size: 3.5rem;
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 6;
+    background: white;
+    padding: 1rem 4rem;
+    box-shadow: var(--low-shadow);
+    letter-spacing: 2px;
+}
+
+/*-- HTML Section --*/
+html-section {
+    right: 75%;
+    z-index: 1;
+}
+
+html-section div:first-child,
+html-section div:nth-child(2) {
+    font-size: 15rem;
+    text-transform: uppercase;
+}
+
+.letter-h-html {
+    position: absolute;
+    margin: 2.5rem 0 0 0;
+    top: 0;
+    left: 15%;
+}
+
+.letter-t-html {
+    position: absolute;
+    margin: 2.5rem 0 0 0;
+    top: 0;
+    left: 60%;
+}
+
+.letter-m-html {
+    position: absolute;
+    margin: 21.5rem 0 0 0;
+    top: 0;
+    left: 15%;
+}
+
+.letter-l-html {
+    position: absolute;
+    margin: 21.5rem 0 0 0;
+    top: 0;
+    left: 60%;
+}
+
+.html-header {
+    position: absolute;
+    top: 58%;
+    left: 114.6%;
+    transform: translate(-50%, -50%);
+    margin: 0 -29rem;
+    font-size: 2.5rem;
+}
+
+.html-description-card {
+    margin: 118% 10% 0 10%;
+    padding: 12rem;
+    border-radius: 1rem;
+    box-shadow: var(--low-shadow);
+}
+
+.html-description-card > p {
+    position: absolute;
+    top: 79.5%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    margin: 0px -42px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*- CSS Section -*/
+css-section {
+    right: 50%;
+    z-index: 2;
+    overflow: hidden;
+    font-family: 'Licorice', cursive;
+}
+
+css-section > img {
+    position: absolute;
+    z-index: -1;
+    top: -8%;
+}
+
+css-letter {
+    font-size: 25rem;
+    position: relative;
+}
+
+css-letter > p:nth-child(1) {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(160%, -50%);
+}
+
+css-letter > p:nth-child(2) {
+    position: absolute;
+    top: 204%;
+    left: 50%;
+    transform: translate(160%, -50%);
+}
+
+css-letter > p:nth-child(3) {
+    position: absolute;
+    top: 284%;
+    left: 50%;
+    transform: translate(160%, -50%);
+}
+
+css-header {
+    font-family: 'Prompt', sans-serif;
+}
+
+css-header > h2 {
+    margin: 26rem 0 0 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    z-index: 1;
+    background: white;
+    position: absolute;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--low-shadow);
+    overflow: hidden;
+}
+
+css-header > p {
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 2;
+    padding: 3rem 3rem;
+    margin: 38rem 1rem 0 1rem;
+    text-align: justify;
+    background: white;
+    box-shadow: var(--low-shadow);
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+/*- C Section -*/
+c-language-section {
+    right: 25%;
+    z-index: 3;
+    overflow: hidden;
+}
+
+c-language-section > img {
+    position: absolute;
+    top: 0;
+    width: 135%;
+    transform: rotate(-18deg);
+    z-index: -1;
+}
+
+c-header > h2 {
+    margin: 26rem 0 0 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    z-index: 1;
+    background: white;
+    position: absolute;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--low-shadow);
+    overflow: hidden;
+}
+
+c-header > p {
+    font-size: 1.5rem;
+    position: absolute;
+    z-index: 2;
+    padding: 3rem 3rem;
+    margin: 38rem 1rem 0 1rem;
+    text-align: justify;
+    background: white;
+    box-shadow: var(--low-shadow);
+    font-weight: 700;
+    border-radius: .5rem;
+}
+
+/*- Python Section -*/
+python-section {
+    right: 0;
+    z-index: 4;
+    overflow: hidden;
+}
+
+python-section > img {
+    position: absolute;
+    top: 0;
+    width: 135%;
+    transform: rotate(-18deg);
+    z-index: -1;
+}
+
+python-header {
+    position: relative;
+}
+
+python-header > p:nth-child(1) {
+    position: absolute;
+    margin: 0 0 0 2rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-header > p:nth-child(2) {
+    position: absolute;
+    margin: 0 0 0 16rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-header > p:nth-child(3) {
+    position: absolute;
+    margin: 0 0 0 32rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-header > p:nth-child(4) {
+    position: absolute;
+    margin: 18rem 0 0 16rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-header > p:nth-child(5) {
+    position: absolute;
+    margin: 18rem 0 0 30rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-header > p:nth-child(6) {
+    position: absolute;
+    margin: 36rem 0 0 32rem;
+    font-size: 18rem;
+    font-weight: 200;
+}
+
+python-description > h2 {
+    margin: 44rem 0 0 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    z-index: 1;
+    background: white;
+    position: absolute;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: var(--low-shadow);
+    overflow: hidden;
+}
+
+python-description >p {
+    position: absolute;
+    z-index: 1;
+    font-size: 1.5rem;
+    background: white;
+    box-shadow: var(--low-shadow);
+    padding: 2rem 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0 2rem;
+    text-align: justify;
+    top: 64%;
+    border-radius: .5rem;
+}

@@ -1,0 +1,42 @@
+/* Header */
+header {
+    margin: 5rem 0;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3.5rem;
+    box-shadow: var(--soft-shadow);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    letter-spacing: 1px;
+}
+
+/* Card */
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 16rem 0 0 0;
+}
+
+.card {
+    margin: 0 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Image */
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Footer Margin */
+footer {
+    margin: 8rem 0 0 0;
+{

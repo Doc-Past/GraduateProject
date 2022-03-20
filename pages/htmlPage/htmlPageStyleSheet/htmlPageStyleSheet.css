@@ -1,0 +1,102 @@
+/* Header */
+header {
+    text-align: center;
+    margin: 2rem 58rem;
+    padding: 1rem 1rem;
+    box-shadow: var(--soft-shadow);
+    border-radius: .5rem;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+/* Link */
+a {
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #2f343d;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    transition: background var(--trasition-timing), color var(--trasition-timing);
+}
+
+a:hover {
+    background: #2f343d;
+    color: white;
+}
+
+.center-link {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+}
+
+/* Card Example Section */
+.card-container {
+    display: flex;
+    background: green;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+    justify-content: center;
+    position: relative;
+}
+
+.card {
+    border-radius: .5rem;
+    padding: 6rem 1rem;
+    position: absolute;
+    left: 35.7%;
+}
+
+.image-container {
+    text-align: center;
+    margin: -3rem 0 1.5rem 0;
+    width: 175%;
+}
+
+img {
+    width: 52%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Card Images */
+.image-styling {
+    width: 10%;
+}
+
+/* Text */
+.text-container {
+    text-align: center;
+    margin: 32rem 0 0 0;
+}
+
+.description-text {
+    margin: 0 36rem;
+}
+
+/* HTML Images */
+.html-code-image {
+    width: 36%;
+    margin: 2rem 0;
+}
+
+/* HTML Content Section */
+.content-section {
+    text-align: left;
+    margin: 0 0 2rem 40rem;
+    font-size: 1.4rem;
+}
+
+/* Footer */
+footer {
+    margin: 2rem 0 0 0;
+}
